@@ -1,0 +1,61 @@
+########################################
+# STM32CubeIDE / STM32CubeMX
+########################################
+
+# Build outputs
+Debug/
+Release/
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# Auto-generated project metadata
+.cproject
+.project
+.mxproject
+.settings/
+STM32F103C8TX_FLASH.ld  # Solo si no lo editás a mano (si lo editás, quitá esta línea)
+
+# Dependency/utility files
+*.d
+*.su
+*.cyclo
+
+# Makefiles generados
+makefile
+objects.mk
+sources.mk
+subdir.mk
+objects.list
+
+# Launch and debug configs (se regeneran solos)
+*.launch
+*.cfg  # CUIDADO: si tenés cfg personalizados, sacá o ajustá esta línea
+
+# IDE internal caches
+*.log
+*.bak
+*.tmp
+
+########################################
+# General C/C++ ignored files
+########################################
+*.o
+*.a
+*.swp
+*.swo
+
+########################################
+# OS and editor files
+########################################
+.DS_Store
+Thumbs.db
+*.code-workspace
+.vscode/
+.idea/
+
+*.launch
+*.cfg

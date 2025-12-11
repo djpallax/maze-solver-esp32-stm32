@@ -1,0 +1,52 @@
+##############################
+# ESP-IDF build system files
+##############################
+
+# Build directory
+build/
+**/build/
+
+# IDF Python environment caches
+*.pyc
+__pycache__/
+*.pyo
+
+# IDE / tooling caches
+.cache/
+.vscode/
+*.swp
+*.swo
+
+# CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Ninja build system files (if used)
+.ninja_deps
+.ninja_log
+
+##############################
+# ESP-IDF configuration files
+##############################
+
+# Old sdkconfig backup
+sdkconfig.old
+
+# Select this if you DO NOT want sdkconfig in the repository
+# (not recommended if you want reproducible builds)
+# sdkconfig
+
+##############################
+# Dev containers / tools
+##############################
+.devcontainer/
+
+##############################
+# Logs and temporary files
+##############################
+*.log
+*.tmp
+*.bak
